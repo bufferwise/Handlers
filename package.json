@@ -1,0 +1,34 @@
+{
+  "main": "./src/index.mjs",
+  "type": "module",
+  "name": "discord-js-handler",
+  "description": "Discord.js v14.x.x Command Handler",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "init": "npm install && node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "Discord",
+    "Bot",
+    "Discordjs",
+    "handler",
+    "v14"
+  ],
+  "author": "MRZ",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "discord-hybrid-sharding": "github:meister03/discord-hybrid-sharding",
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3"
+  }
+}
