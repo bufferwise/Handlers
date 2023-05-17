@@ -25,7 +25,7 @@ export async function statusUpdater(client) {
         return { guilds: 0, members: 0 }
     })
     for (let i = shardIds.length - 1; i >= 0; i--) {
-        const shardId = shardIds[i]; // Handler by Tomato6966
+        const shardId = shardIds[i]; // Handler By Tomato Improved by Raiden
         client.user.setActivity(`Discord Bot on shard #${shardId}`, { shardId, type: ActivityType.Listening })
     }
 }
